@@ -1,0 +1,77 @@
+.container {
+
+  h1, h2 {
+    margin: 0;
+    color: $black;
+    font-size: 16px;
+  }
+
+  span {
+    font-size: 16px;
+    font-family: $font-promixa-nova-semibold, sans-serif;
+  }
+
+  .logomator-form {
+    padding-top: 30px;
+
+    .orange-bar {
+      display: block;
+      background: $logomatorOrange;
+      height: 4px;
+      width: 50px;
+    }
+
+    form {
+      padding-top: 20px;
+      max-width: 600px;
+      width: 100%;
+
+      label {
+        display: block;
+        color: $darkBlack;
+        font-size: 20px;
+        margin-bottom: 20px;
+        
+        span {
+          max-width: 600px;
+          display: inline-block;
+          word-wrap: break-word;
+        }
+      }
+      
+      input {
+        display: block;
+        border: none;
+        border-bottom: 1px solid $selectBorder;
+        width: 100%;
+
+        &:focus {
+          border-bottom: 1px solid $logomatorOrange;
+          outline: none;
+        }
+      }
+
+      span.disclaimer {
+        display: block;
+        font-family: 'Proxima Nova Light', sans-serif;
+        color: $darkGrey;
+        font-size: 16px;
+        margin-top: 10px;
+      }
+
+      span.bottom-label {
+        display: block;
+        font-family: 'Proxima Nova Light', sans-serif;
+        font-size: 16px;
+        color: $darkGrey;
+        text-align: left;
+        margin-top: 10px;
+      }
+
+      button.logomator-btn {
+        margin-top: 10px;
+        float: right;
+      }
+    }
+  }
+}

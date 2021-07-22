@@ -1,0 +1,7 @@
+{
+  "URLS": {
+    "heroku": "https://fathomless-harbor-10088.herokuapp.com",
+    "oldlocal": "logomaker-api-service.logomaker.svc.cluster.local:8000",
+    "local": "http://localhost:8000"
+  }
+}

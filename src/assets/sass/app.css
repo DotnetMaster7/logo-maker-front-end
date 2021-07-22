@@ -1,0 +1,920 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("../fonts/proxima-nova/proximanova-regular-webfont.woff");
+  src: url("../fonts/proxima-nova/proximanova-regular-webfont.woff2"), url("../fonts/proxima-nova/proximanova-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Proxima Nova Light';
+  src: url("../fonts/proxima-nova/proxima-nova-light-webfont.woff");
+  src: url("../fonts/proxima-nova/proxima-nova-light-webfont.woff2"), url("../fonts/proxima-nova/proxima-nova-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  src: url("../fonts/proxima-nova/proxima-nova-bold-webfont.woff");
+  src: url("../fonts/proxima-nova/proxima-nova-bold-webfont.woff2"), url("../fonts/proxima-nova/proxima-nova-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Proxima Nova Semi Bold';
+  src: url("../fonts/proxima-nova/proxima-nova-semibold-webfont.woff");
+  src: url("../fonts/proxima-nova/proxima-nova-semibold-webfont.woff2"), url("../fonts/proxima-nova/proxima-nova-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/montserrat/montserrat-regular/montserrat-regular-webfont.woff") format("woff"), url("../fonts/montserrat/montserrat-regular/montserrat-regular-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Montserrat Semibold';
+  src: url("../fonts/montserrat/montserrat-semibold/montserrat-semibold-webfont.woff");
+  src: url("../fonts/montserrat/montserrat-semibold/montserrat-semibold-webfont.woff2"), url("../fonts/montserrat/montserrat-semibold/montserrat-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url("../fonts/montserrat/montserrat-bold/montserrat-bold-webfont.woff");
+  src: url("../fonts/montserrat/montserrat-bold/montserrat-bold-webfont.woff2"), url("../fonts/montserrat/montserrat-bold/montserrat-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Abril Fat Face';
+  src: url("../fonts/abril-fatface/abrilfatface-regular-webfont.woff");
+  src: url("../fonts/abril-fatface/abrilfatface-regular-webfont.woff2"), url("../fonts/abril-fatface/abrilfatface-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Alex Brush';
+  src: url("../fonts/alex-brush/alexbrush-regular-webfont.woff");
+  src: url("../fonts/alex-brush/alexbrush-regular-webfont.woff2"), url("../fonts/alex-brush/alexbrush-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url("../fonts/bebas_neue/bebasneue-webfont.woff");
+  src: url("../fonts/bebas_neue/bebasneue-webfont.woff2"), url("../fonts/bebas_neue/bebasneue-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Boogaloo';
+  src: url("../fonts/boogaloo/boogaloo-regular-webfont.woff");
+  src: url("../fonts/boogaloo/boogaloo-regular-webfont.woff2"), url("../fonts/boogaloo/boogaloo-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Caviar Dreams';
+  src: url("../fonts/Caviar-Dreams/caviardreams-webfont.woff");
+  src: url("../fonts/Caviar-Dreams/caviardreams-webfont.woff2"), url("../fonts/Caviar-Dreams/caviardreams-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Caviar Dreams Bold';
+  src: url("../fonts/Caviar-Dreams/caviar_dreams_bold-webfont.woff");
+  src: url("../fonts/Caviar-Dreams/caviar_dreams_bold-webfont.woff2"), url("../fonts/Caviar-Dreams/caviar_dreams_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Caviar Dreams Italic';
+  src: url("../fonts/Caviar-Dreams/caviardreams_italic-webfont.woff");
+  src: url("../fonts/Caviar-Dreams/caviardreams_italic-webfont.woff2"), url("../fonts/Caviar-Dreams/caviardreams_italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Caviar Dreams Bold Italic';
+  src: url("../fonts/Caviar-Dreams/caviardreams_bolditalic-webfont.woff");
+  src: url("../fonts/Caviar-Dreams/caviardreams_bolditalic-webfont.woff2"), url("../fonts/Caviar-Dreams/caviardreams_bolditalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Chunk Five';
+  src: url("../fonts/ChunkFive/chunkfive-webfont.woff");
+  src: url("../fonts/ChunkFive/chunkfive-webfont.woff2"), url("../fonts/ChunkFive/chunkfive-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Cinzel';
+  src: url("../fonts/cinzel/cinzel-regular-webfont.woff");
+  src: url("../fonts/cinzel/cinzel-regular-webfont.woff2"), url("../fonts/cinzel/cinzel-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Cinzel Black';
+  src: url("../fonts/cinzel/cinzel-black-webfont.woff");
+  src: url("../fonts/cinzel/cinzel-black-webfont.woff2"), url("../fonts/cinzel/cinzel-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Cinzel Bold';
+  src: url("../fonts/cinzel/cinzel-bold-webfont.woff");
+  src: url("../fonts/cinzel/cinzel-bold-webfont.woff2"), url("../fonts/cinzel/cinzel-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Cinzel Decorative';
+  src: url("../fonts/cinzel/cinzeldecorative-regular-webfont.woff");
+  src: url("../fonts/cinzel/cinzeldecorative-regular-webfont.woff2"), url("../fonts/cinzel/cinzeldecorative-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Cinzel Black Decorative';
+  src: url("../fonts/cinzel/cinzeldecorative-black-webfont.woff");
+  src: url("../fonts/cinzel/cinzeldecorative-black-webfont.woff2"), url("../fonts/cinzel/cinzeldecorative-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Cinzel Black Decorative Bold';
+  src: url("../fonts/cinzel/cinzeldecorative-bold-webfont.woff");
+  src: url("../fonts/cinzel/cinzeldecorative-bold-webfont.woff2"), url("../fonts/cinzel/cinzeldecorative-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Dancing Script';
+  src: url("../fonts/dancing-script-ot/dancingscript-regular-webfont.woff");
+  src: url("../fonts/dancing-script-ot/dancingscript-regular-webfont.woff2"), url("../fonts/dancing-script-ot/dancingscript-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Great Vibes';
+  src: url("../fonts/great-vibes/greatvibes-regular-webfont.woff");
+  src: url("../fonts/great-vibes/greatvibes-regular-webfont.woff2"), url("../fonts/great-vibes/greatvibes-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Happy Monkey';
+  src: url("../fonts/happy-monkey/happymonkey-regular-webfont.woff");
+  src: url("../fonts/happy-monkey/happymonkey-regular-webfont.woff2"), url("../fonts/happy-monkey/happymonkey-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/lato/lato-regular-webfont.woff");
+  src: url("../fonts/lato/lato-regular-webfont.woff2"), url("../fonts/lato/lato-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato Italic';
+  src: url("../fonts/lato/lato-italic-webfont.woff");
+  src: url("../fonts/lato/lato-italic-webfont.woff2"), url("../fonts/lato/lato-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato Semi Bold';
+  src: url("../fonts/lato/lato-semibold-webfont.woff");
+  src: url("../fonts/lato/lato-semibold-webfont.woff2"), url("../fonts/lato/lato-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato Semi Bold Italic';
+  src: url("../fonts/lato/lato-semibolditalic-webfont.woff");
+  src: url("../fonts/lato/lato-semibolditalic-webfont.woff2"), url("../fonts/lato/lato-semibolditalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato Bold';
+  src: url("../fonts/lato/lato-bold-webfont.woff");
+  src: url("../fonts/lato/lato-bold-webfont.woff2"), url("../fonts/lato/lato-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato Bold Italic';
+  src: url("../fonts/lato/lato-bolditalic-webfont.woff");
+  src: url("../fonts/lato/lato-bolditalic-webfont.woff2"), url("../fonts/lato/lato-bolditalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato Black';
+  src: url("../fonts/lato/lato-black-webfont.woff");
+  src: url("../fonts/lato/lato-black-webfont.woff2"), url("../fonts/lato/lato-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato Black Italic';
+  src: url("../fonts/lato/lato-blackitalic-webfont.woff");
+  src: url("../fonts/lato/lato-blackitalic-webfont.woff2"), url("../fonts/lato/lato-blackitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato Hairline';
+  src: url("../fonts/lato/lato-hairline-webfont.woff");
+  src: url("../fonts/lato/lato-hairline-webfont.woff2"), url("../fonts/lato/lato-hairline-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato Hairline Italic';
+  src: url("../fonts/lato/lato-hairlineitalic-webfont.woff");
+  src: url("../fonts/lato/lato-hairlineitalic-webfont.woff2"), url("../fonts/lato/lato-hairlineitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato Heavy';
+  src: url("../fonts/lato/lato-heavy-webfont.woff");
+  src: url("../fonts/lato/lato-heavy-webfont.woff2"), url("../fonts/lato/lato-heavy-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato Heavy Italic';
+  src: url("../fonts/lato/lato-heavyitalic-webfont.woff");
+  src: url("../fonts/lato/lato-heavyitalic-webfont.woff2"), url("../fonts/lato/lato-heavyitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato Light';
+  src: url("../fonts/lato/lato-light-webfont.woff");
+  src: url("../fonts/lato/lato-light-webfont.woff2"), url("../fonts/lato/lato-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato Light Italic';
+  src: url("../fonts/lato/lato-lightitalic-webfont.woff");
+  src: url("../fonts/lato/lato-lightitalic-webfont.woff2"), url("../fonts/lato/lato-lightitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato Medium';
+  src: url("../fonts/lato/lato-medium-webfont.woff");
+  src: url("../fonts/lato/lato-medium-webfont.woff2"), url("../fonts/lato/lato-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato Medium Italic';
+  src: url("../fonts/lato/lato-mediumitalic-webfont.woff");
+  src: url("../fonts/lato/lato-mediumitalic-webfont.woff2"), url("../fonts/lato/lato-mediumitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato Thin';
+  src: url("../fonts/lato/lato-thin-webfont.woff");
+  src: url("../fonts/lato/lato-thin-webfont.woff2"), url("../fonts/lato/lato-thin-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato Thin Italic';
+  src: url("../fonts/lato/lato-thinitalic-webfont.woff");
+  src: url("../fonts/lato/lato-thinitalic-webfont.woff2"), url("../fonts/lato/lato-thinitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Oswald';
+  src: url("../fonts/oswald/oswald-regular-webfont.woff");
+  src: url("../fonts/oswald/oswald-regular-webfont.woff2"), url("../fonts/oswald/oswald-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url("../fonts/pacifico/pacifico-webfont.woff");
+  src: url("../fonts/pacifico/pacifico-webfont.woff2"), url("../fonts/pacifico/pacifico-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+body h1, body h2, body h3, body h4, body h5, body h6, body p, body span, body input, body label {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 300; }
+
+body h1 {
+  font-size: 28px; }
+
+body h2 {
+  font-size: 18px; }
+
+body .logomator-base {
+  background: #FDFDFD; }
+  body .logomator-base .container {
+    max-width: 630px;
+    padding-top: 100px; }
+
+body .logomator-btn {
+  height: 40px;
+  width: 106px;
+  background: #F5530C;
+  border: 1px solid #F5530C;
+  box-shadow: 0 1px 3px 0 rgba(181, 181, 181, 0.15);
+  border-radius: 2px;
+  font-family: ProximaNova-Semibold, sans-serif;
+  font-size: 16px;
+  color: white;
+  transition: 0.25s all linear; }
+  body .logomator-btn.generate-logos {
+    width: 178px; }
+  body .logomator-btn.generate-more-logos {
+    width: 195px;
+    float: none !important;
+    padding: 0; }
+  body .logomator-btn.loading {
+    background-image: url("../../images/loading.gif"); }
+  body .logomator-btn.btn-disabled {
+    opacity: .3;
+    pointer-events: none;
+    cursor: default; }
+  body .logomator-btn:hover {
+    background: #E04A08; }
+
+body .back-btn {
+  height: 40px;
+  width: 100px;
+  background: transparent url("../images/icons/back.png") no-repeat;
+  background-size: 14px 12px;
+  background-position: 20px 12px;
+  padding-left: 29px;
+  border: 1px solid #DFE3E6;
+  border-radius: 2px;
+  font-family: ProximaNova-Semibold;
+  font-size: 16px;
+  color: #19191A;
+  transition: 0.25s all linear; }
+  body .back-btn:hover {
+    border: 1px solid #B0B5B8; }
+
+body input {
+  font-size: 18px;
+  color: #2E2E2E;
+  padding-bottom: 3px; }
+
+body .logomator-textarea {
+  height: 120px;
+  width: 600px;
+  background: white;
+  border: 1px solid #B0B5B8;
+  border-radius: 2px;
+  font-family: 'Proxima Nova', sans-serif;
+  font-size: 18px;
+  color: #19191A;
+  padding: 20px 20px 34px 20px; }
+  body .logomator-textarea:focus {
+    outline: none;
+    border: 1px solid #F5530C; }
+
+body .show {
+  display: block; }
+
+body .no-show {
+  display: none; }
+
+body nav {
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #EBEFF0;
+  background: white;
+  box-shadow: 0 4px 0 rgba(244, 244, 245, 0.5);
+  z-index: 99999; }
+  body nav img.logo {
+    height: auto;
+    width: 40px; }
+  body nav .right {
+    display: inline-block;
+    float: right; }
+    body nav .right button.start-over {
+      height: 40px;
+      width: 137px;
+      padding-left: 29px;
+      background: transparent url("../images/icons/start-over.png") no-repeat;
+      background-size: 13px 14px;
+      background-position: 20px 11px;
+      border: 1px solid #DFE3E6;
+      font-size: 16px;
+      font-family: "Proxima Nova Semi Bold";
+      color: #2E2E2E;
+      border-radius: 2px;
+      transition: 0.25s all linear; }
+      body nav .right button.start-over:hover {
+        border: 1px solid #B0B5B8; }
+
+body .chat-container {
+  vertical-align: top; }
+  body .chat-container .chat-bubble-pic {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: top; }
+    body .chat-container .chat-bubble-pic img {
+      height: 50px;
+      width: 50px; }
+  body .chat-container .chat-bubble-message {
+    display: inline-block;
+    border-radius: 10px;
+    max-width: 540px;
+    width: auto;
+    padding: 20px;
+    background: #F3F3F3;
+    word-wrap: break-word; }
+
+body .loading-container {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: #FDFDFD;
+  position: fixed;
+  z-index: 999999; }
+  body .loading-container.show {
+    display: block; }
+  body .loading-container .loading {
+    height: 700px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto; }
+    body .loading-container .loading .chat-container {
+      max-height: 472px;
+      max-width: 630px; }
+      body .loading-container .loading .chat-container h1, body .loading-container .loading .chat-container h2 {
+        margin: 0;
+        color: #2E2E2E;
+        font-size: 16px; }
+      body .loading-container .loading .chat-container span {
+        font-size: 16px;
+        font-family: "Proxima Nova Semi Bold", sans-serif; }
+    body .loading-container .loading img.loading-gif {
+      display: block;
+      width: 145px;
+      height: 109px; }
+
+::-webkit-input-placeholder {
+  /* Chrome */
+  color: #B0B5B8; }
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #B0B5B8; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #B0B5B8;
+  opacity: 1; }
+
+:-moz-placeholder {
+  /* Firefox 4 - 18 */
+  color: #B0B5B8;
+  opacity: 1; }
+
+div.logomator-base {
+  padding-bottom: 80px; }
+  div.logomator-base div.selection {
+    height: 100%;
+    width: 100%;
+    background: #FDFDFD; }
+    div.logomator-base div.selection div.row {
+      max-width: 960px;
+      margin: auto; }
+      div.logomator-base div.selection div.row div.logo {
+        position: relative;
+        height: 226px;
+        width: 300px;
+        margin: auto; }
+        div.logomator-base div.selection div.row div.logo img {
+          position: absolute;
+          top: 100px;
+          right: 0;
+          left: 0;
+          margin: auto; }
+      div.logomator-base div.selection div.row.no-padding {
+        padding-bottom: 0; }
+
+div.selection-progress {
+  height: 80px;
+  width: 100%;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.15);
+  position: fixed;
+  bottom: 0;
+  background: white; }
+  div.selection-progress div.container-fluid {
+    padding: 0 55px; }
+    div.selection-progress div.container-fluid div.left {
+      margin-top: 35px;
+      display: inline-block; }
+      div.selection-progress div.container-fluid div.left div.progress-bar {
+        position: relative;
+        display: inline-block;
+        height: 10px;
+        width: 300px;
+        background: #E3E4E4;
+        border-radius: 10px; }
+        div.selection-progress div.container-fluid div.left div.progress-bar .progress-bar-fill {
+          position: absolute;
+          height: 10px;
+          background: #FF9D54;
+          border-radius: 10px; }
+      div.selection-progress div.container-fluid div.left p.progress-percentage {
+        display: inline-block;
+        margin: 0 0 0 30px;
+        font-family: "Proxima Nova", sans-serif; }
+    div.selection-progress div.container-fluid div.right {
+      display: inline-block;
+      float: right;
+      margin-top: 15px; }
+      div.selection-progress div.container-fluid div.right button.logomator-next-step {
+        height: 50px;
+        width: 179px;
+        color: white;
+        background: #FF9D54;
+        border: 0;
+        border-radius: 2px;
+        font-family: "Proxima Nova", sans-serif;
+        font-size: 18px; }
+        div.selection-progress div.container-fluid div.right button.logomator-next-step.disabled {
+          opacity: .2; }
+
+.color-palette-container {
+  padding-top: 30px;
+  max-width: 920px;
+  margin: auto; }
+  .color-palette-container .color-palette.col-5 {
+    padding-top: 30px;
+    width: 20%;
+    float: left; }
+    .color-palette-container .color-palette.col-5.disabled {
+      pointer-events: none; }
+    .color-palette-container .color-palette.col-5 .palette {
+      height: 180px;
+      width: 160px;
+      box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.15);
+      border-radius: 2px;
+      transition: transform .25s ease-in-out;
+      margin: auto;
+      cursor: pointer; }
+      .color-palette-container .color-palette.col-5 .palette:hover {
+        transform: translateY(-15px); }
+      .color-palette-container .color-palette.col-5 .palette.selected {
+        outline: 3px solid #F5530C; }
+      .color-palette-container .color-palette.col-5 .palette.disabled {
+        opacity: .5;
+        cursor: default;
+        pointer-events: none; }
+        .color-palette-container .color-palette.col-5 .palette.disabled:hover {
+          transform: translateY(0); }
+      .color-palette-container .color-palette.col-5 .palette .color {
+        height: 140px;
+        width: 40px;
+        display: inline-block; }
+      .color-palette-container .color-palette.col-5 .palette p.color-label {
+        margin: 3px 10px 10px;
+        font-size: 16px;
+        font-family: 'Proxima Nova Semi Bold'; }
+
+.logomator-base.logo-information {
+  padding-bottom: 0; }
+  .logomator-base.logo-information .selection.container-fluid .row .logomator-form {
+    width: 400px;
+    margin: auto; }
+    .logomator-base.logo-information .selection.container-fluid .row .logomator-form .logomator-form-field {
+      text-align: left;
+      padding-bottom: 20px;
+      position: relative; }
+      .logomator-base.logo-information .selection.container-fluid .row .logomator-form .logomator-form-field .select-triangle {
+        position: absolute;
+        top: 40px;
+        right: 20px; }
+        .logomator-base.logo-information .selection.container-fluid .row .logomator-form .logomator-form-field .select-triangle:after {
+          content: '';
+          width: 0;
+          height: 0;
+          display: inline-block;
+          border-color: #2E2E2E transparent;
+          border-style: solid;
+          margin: 0 8px;
+          border-width: 6px 6px 0;
+          transition: transform 0.25s ease;
+          vertical-align: middle; }
+      .logomator-base.logo-information .selection.container-fluid .row .logomator-form .logomator-form-field label {
+        display: block;
+        color: #2E2E2E;
+        font-size: 16px;
+        font-family: "Proxima Nova Semi Bold", sans-serif;
+        margin-bottom: 10px; }
+      .logomator-base.logo-information .selection.container-fluid .row .logomator-form .logomator-form-field select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0; }
+      .logomator-base.logo-information .selection.container-fluid .row .logomator-form .logomator-form-field select, .logomator-base.logo-information .selection.container-fluid .row .logomator-form .logomator-form-field input {
+        height: 40px; }
+      .logomator-base.logo-information .selection.container-fluid .row .logomator-form .logomator-form-field select, .logomator-base.logo-information .selection.container-fluid .row .logomator-form .logomator-form-field input, .logomator-base.logo-information .selection.container-fluid .row .logomator-form .logomator-form-field textarea {
+        background: white;
+        width: 100%;
+        display: block;
+        border: 1px solid #B3B3B3;
+        font-family: "Proxima Nova", sans-serif;
+        font-size: 16px;
+        padding-left: 20px; }
+      .logomator-base.logo-information .selection.container-fluid .row .logomator-form .logomator-form-field.no-padding {
+        padding-bottom: 0; }
+    .logomator-base.logo-information .selection.container-fluid .row .logomator-form .logomator-button {
+      height: 50px;
+      width: 179px;
+      color: white;
+      background: #F5530C;
+      border: 0;
+      border-radius: 2px;
+      font-family: "Proxima Nova", sans-serif;
+      font-size: 18px;
+      height: 54px;
+      width: 398px;
+      margin-top: 40px; }
+
+.container h1, .container h2 {
+  margin: 0;
+  color: #2E2E2E;
+  font-size: 16px; }
+
+.container span {
+  font-size: 16px;
+  font-family: "Proxima Nova Semi Bold", sans-serif; }
+
+.container .logomator-form {
+  padding-top: 30px; }
+  .container .logomator-form .orange-bar {
+    display: block;
+    background: #F5530C;
+    height: 4px;
+    width: 50px; }
+  .container .logomator-form form {
+    padding-top: 20px;
+    max-width: 600px;
+    width: 100%; }
+    .container .logomator-form form label {
+      display: block;
+      color: #19191A;
+      font-size: 20px;
+      margin-bottom: 20px; }
+      .container .logomator-form form label span {
+        max-width: 600px;
+        display: inline-block;
+        word-wrap: break-word; }
+    .container .logomator-form form input {
+      display: block;
+      border: none;
+      border-bottom: 1px solid #B0B5B8;
+      width: 100%; }
+      .container .logomator-form form input:focus {
+        border-bottom: 1px solid #F5530C;
+        outline: none; }
+    .container .logomator-form form span.disclaimer {
+      display: block;
+      font-family: 'Proxima Nova Light', sans-serif;
+      color: #67676F;
+      font-size: 16px;
+      margin-top: 10px; }
+    .container .logomator-form form span.bottom-label {
+      display: block;
+      font-family: 'Proxima Nova Light', sans-serif;
+      font-size: 16px;
+      color: #67676F;
+      text-align: left;
+      margin-top: 10px; }
+    .container .logomator-form form button.logomator-btn {
+      margin-top: 10px;
+      float: right; }
+
+.tagline-component.container .logomator-radio-btn {
+  height: 80px;
+  width: 290px;
+  border: 1px solid #DFE3E6;
+  border-radius: 2px;
+  padding: 0 20px 0 20px;
+  display: inline-block;
+  transition: 0.25s all linear;
+  cursor: pointer;
+  margin-bottom: 0; }
+  .tagline-component.container .logomator-radio-btn span {
+    font-size: 18px; }
+  .tagline-component.container .logomator-radio-btn:hover {
+    border: 1px solid #F5530C; }
+  .tagline-component.container .logomator-radio-btn.selected {
+    border: 1px solid #F5530C; }
+  .tagline-component.container .logomator-radio-btn .radio-btn-labels {
+    display: inline-block;
+    padding-top: 11px;
+    margin-left: 20px; }
+    .tagline-component.container .logomator-radio-btn .radio-btn-labels strong {
+      color: #19191A;
+      font-size: 18px;
+      font-weight: 500; }
+    .tagline-component.container .logomator-radio-btn .radio-btn-labels p {
+      margin: 0;
+      color: #67676F;
+      font-size: 16px; }
+  .tagline-component.container .logomator-radio-btn input[type="radio"] {
+    vertical-align: top;
+    margin-top: 30px;
+    height: 16px;
+    width: 16px;
+    display: inline-block; }
+
+.tagline-component.container .no-show {
+  display: none; }
+
+.industry-name-component.container .logomator-form form {
+  position: relative; }
+  .industry-name-component.container .logomator-form form label span {
+    font-size: 21px; }
+  .industry-name-component.container .logomator-form form .select-triangle {
+    position: absolute;
+    top: 14px;
+    right: 274px;
+    display: none; }
+    .industry-name-component.container .logomator-form form .select-triangle:after {
+      content: '';
+      width: 0;
+      height: 0;
+      display: inline-block;
+      border-color: #2E2E2E transparent;
+      border-style: solid;
+      margin: 0 8px;
+      border-width: 6px 6px 0;
+      transition: transform 0.25s ease;
+      vertical-align: middle; }
+  .industry-name-component.container .logomator-form form select {
+    display: none;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 50px;
+    width: 340px;
+    border: 1px solid #B0B5B8;
+    border-radius: 2px;
+    padding: 11px 0 14px 20px;
+    font-size: 18px;
+    color: #19191A;
+    background: white;
+    font-family: 'Proxima Nova', sans-serif; }
+
+.logomator-base.inspiration {
+  padding-bottom: 0; }
+  .logomator-base.inspiration .container {
+    max-width: 960px; }
+  .logomator-base.inspiration .logo-inspiration-container {
+    max-width: 960px;
+    width: 960px;
+    padding-top: 30px; }
+    .logomator-base.inspiration .logo-inspiration-container .logo {
+      height: 230px;
+      width: 300px;
+      box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.15);
+      border-radius: 2px;
+      margin-right: 30px;
+      margin-bottom: 30px;
+      transition: transform 0.25s linear;
+      cursor: pointer;
+      position: relative; }
+      .logomator-base.inspiration .logo-inspiration-container .logo .concept {
+        transition: 0.25s all linear;
+        position: absolute;
+        height: 100%;
+        width: 100%; }
+      .logomator-base.inspiration .logo-inspiration-container .logo .get-logo-files {
+        position: absolute;
+        height: 60px;
+        width: 100%;
+        display: none;
+        transition: 0.25s all linear;
+        bottom: 0;
+        background: #FBFBFB;
+        text-align: center; }
+      .logomator-base.inspiration .logo-inspiration-container .logo:hover {
+        transform: translateY(-15px); }
+      .logomator-base.inspiration .logo-inspiration-container .logo:hover .get-logo-files {
+        display: block; }
+      .logomator-base.inspiration .logo-inspiration-container .logo.selected {
+        box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.15); }
+        .logomator-base.inspiration .logo-inspiration-container .logo.selected:after {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          border-radius: 3px;
+          border: 3px solid #F5530C; }
+        .logomator-base.inspiration .logo-inspiration-container .logo.selected:hover {
+          transform: translateY(0); }
+        .logomator-base.inspiration .logo-inspiration-container .logo.selected img {
+          width: 100%;
+          border-radius: 3px; }
+      .logomator-base.inspiration .logo-inspiration-container .logo img {
+        max-height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto; }
+    .logomator-base.inspiration .logo-inspiration-container div:nth-child(3n) .logo {
+      margin-right: 0; }
+
+.color-palette-container {
+  padding-top: 30px;
+  max-width: 920px;
+  margin: auto; }
+  .color-palette-container .color-palette.col-5 {
+    padding-top: 30px;
+    width: 20%;
+    float: left; }
+    .color-palette-container .color-palette.col-5.disabled {
+      pointer-events: none; }
+    .color-palette-container .color-palette.col-5 .palette {
+      height: 180px;
+      width: 160px;
+      box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.15);
+      border-radius: 2px;
+      transition: transform .25s ease-in-out;
+      margin: auto;
+      cursor: pointer; }
+      .color-palette-container .color-palette.col-5 .palette:hover {
+        transform: translateY(-15px); }
+      .color-palette-container .color-palette.col-5 .palette.selected {
+        outline: 3px solid #F5530C; }
+      .color-palette-container .color-palette.col-5 .palette.disabled {
+        opacity: .5;
+        cursor: default;
+        pointer-events: none; }
+        .color-palette-container .color-palette.col-5 .palette.disabled:hover {
+          transform: translateY(0); }
+      .color-palette-container .color-palette.col-5 .palette .color {
+        height: 140px;
+        width: 40px;
+        display: inline-block; }
+      .color-palette-container .color-palette.col-5 .palette p.color-label {
+        margin: 3px 10px 10px;
+        font-size: 16px;
+        font-family: 'Proxima Nova Semi Bold'; }
+
+.progress {
+  position: fixed;
+  bottom: 0;
+  height: 70px;
+  width: 100%;
+  border: 1px solid #EBEFF0;
+  box-shadow: 0 -4px 0 rgba(244, 244, 245, 0.5);
+  background: white; }
+  .progress .container .logomator-btn {
+    margin: 0;
+    margin-top: 15px;
+    float: right; }
+  .progress .container .progress-bar {
+    position: relative;
+    top: 30px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 10px;
+    width: 300px;
+    background: #DFE3E6;
+    border-radius: 10px; }
+    .progress .container .progress-bar .progress-bar-fill {
+      position: absolute;
+      height: 10px;
+      background: #F5530C;
+      border-radius: 10px;
+      transition: width 0.3s ease-in-out; }
+  .progress .container .back-btn {
+    margin: 0;
+    margin-top: 6px; }
+    .progress .container .back-btn.generate-logos {
+      margin-top: 15px; }

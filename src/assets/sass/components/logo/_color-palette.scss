@@ -1,0 +1,56 @@
+.color-palette-container {
+  padding-top: 30px;
+  max-width: 920px;
+  margin: auto;
+
+  .color-palette.col-5 {
+    padding-top: 30px;
+    width: 20%;
+    float: left;
+
+    &.disabled {
+      pointer-events: none;
+    }
+
+    .palette {
+      height: 180px;
+      width: 160px;
+      box-shadow: $colorPaletteShadow;
+      border-radius: 2px;
+      transition: transform .25s ease-in-out;
+      margin: auto;
+      cursor: pointer;
+
+      &:hover {
+        transform: translateY(-15px);
+      }
+
+      &.selected {
+        outline: 3px solid $logomatorOrange;
+      }
+
+      &.disabled {
+        opacity: .5;
+        cursor: default;
+        pointer-events: none;
+
+        &:hover {
+          transform: translateY(0);
+        }
+      }
+
+      .color {
+        height: 140px;
+        width: 40px;
+        display: inline-block;
+      }
+
+      p.color-label {
+        margin: 3px 10px 10px;
+        font-size: 16px;
+        font-family: 'Proxima Nova Semi Bold';
+
+      }
+    }
+  }
+}
